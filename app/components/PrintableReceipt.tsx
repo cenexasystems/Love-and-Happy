@@ -189,16 +189,16 @@ export default function PrintableReceipt({ order, headerBadge }: PrintableReceip
       {/* Top Header Row with Salon Branding & Top-Right Header Badge */}
       <div className="flex flex-col sm:flex-row justify-between items-start gap-6 pb-6 border-b border-zinc-200">
         <div className="flex items-start gap-3.5 sm:gap-4">
-          <div className="w-14 h-14 sm:w-16 sm:h-16 shrink-0 rounded-sm border border-zinc-300 overflow-hidden bg-black p-1">
+          <div className="w-28 h-14 sm:w-32 sm:h-16 shrink-0 rounded-sm border border-zinc-300 overflow-hidden bg-black p-1">
             <img
-              src="/logo.jpeg"
-              alt="Love & Happy Unisex Salon"
+              src="/logo.png"
+              alt="Love & Happy Family Salon"
               className="w-full h-full object-contain"
             />
           </div>
           <div className="space-y-1">
             <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-zinc-900">
-              Love &amp; Happy Unisex Salon
+              Love &amp; Happy Family Salon
             </h1>
             <p className="text-xs text-zinc-500 leading-relaxed max-w-xs">
               No 65, 4 th cross west, Thillai Nagar, Tiruchchirappalli 620018

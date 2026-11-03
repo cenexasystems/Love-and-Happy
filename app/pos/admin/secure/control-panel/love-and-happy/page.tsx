@@ -1447,7 +1447,7 @@ export default function POSBilling() {
       if (cleanPhone) {
         const shopEmoji = String.fromCodePoint(0x2728);
         const checkEmoji = String.fromCodePoint(0x2705);
-        let msg = `${shopEmoji} *Love & Happy Unisex Salon* ${shopEmoji}\n\n`;
+        let msg = `${shopEmoji} *Love & Happy Family Salon* ${shopEmoji}\n\n`;
         msg += `${checkEmoji} *Payment Received & Order Completed!*\n\n`;
         msg += `Customer: ${selectedAdvance.customer_name || "Valued Customer"}\n`;
         msg += `Deposit ID: ${selectedAdvance.id}\n`;
@@ -1456,7 +1456,7 @@ export default function POSBilling() {
         msg += `Payment Method: ${receivePaymentMode === "GPAY" ? "UPI / GPay" : receivePaymentMode}\n`;
         msg += `Total Bill: ₹${settlementCalc.grandTotal.toLocaleString("en-IN", { minimumFractionDigits: 2 })}\n`;
         msg += `Balance Due: ₹0.00\n\n`;
-        msg += `Thank you for choosing Love & Happy Unisex Salon. We look forward to serving you again!`;
+        msg += `Thank you for choosing Love & Happy Family Salon. We look forward to serving you again!`;
         waUrl = `https://api.whatsapp.com/send?phone=91${cleanPhone}&text=${encodeURIComponent(msg)}`;
       }
 
@@ -1816,7 +1816,7 @@ export default function POSBilling() {
     const checkEmoji = String.fromCodePoint(0x2705);
     const moneyEmoji = String.fromCodePoint(0x1f4b0);
     const receiptEmoji = String.fromCodePoint(0x1f4e6);
-    let message = `${shopEmoji} *Love & Happy Unisex Salon* ${shopEmoji}\n\n`;
+    let message = `${shopEmoji} *Love & Happy Family Salon* ${shopEmoji}\n\n`;
     message += `${checkEmoji} Here are your ${order.isGst ? "GST invoice" : "bill"} details!\n\n`;
 
     message += `Subtotal (incl. GST): ₹${order.subtotal.toLocaleString(undefined, { minimumFractionDigits: 2 })}\n`;
@@ -1874,7 +1874,7 @@ export default function POSBilling() {
       n.toLocaleString(undefined, { minimumFractionDigits: 2 });
     const shopEmoji = String.fromCodePoint(0x2728);
     const receiptEmoji = String.fromCodePoint(0x1f4e6);
-    let message = `${shopEmoji} *Love & Happy Unisex Salon* ${shopEmoji}\n\n`;
+    let message = `${shopEmoji} *Love & Happy Family Salon* ${shopEmoji}\n\n`;
     message += `Advance order confirmed!\n\n`;
     message += `Order Total: ₹${fmt(receipt.total)}\n`;
     message += `Deposit Paid: ₹${fmt(receipt.deposit)}\n`;
@@ -2565,10 +2565,10 @@ export default function POSBilling() {
           {/* Logo with Gradient Hover Glow */}
           <div className="relative group mb-6">
             <div className="absolute -inset-1.5 bg-gradient-to-r from-[#0097A7] to-[#0097A7] rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
-            <div className="relative w-20 h-20 bg-black rounded-2xl p-2.5 border border-[#0097A7]/40 shadow-lg flex items-center justify-center">
+            <div className="relative w-44 h-24 bg-black rounded-2xl p-2.5 border border-[#0097A7]/40 shadow-lg flex items-center justify-center">
               <img
-                src="/logo.jpeg"
-                alt="Love & Happy Unisex Salon Logo"
+                src="/logo.png"
+                alt="Love & Happy Family Salon Logo"
                 className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -2579,7 +2579,7 @@ export default function POSBilling() {
             Love &amp; Happy
           </h1>
           <p className="text-[#007A87] text-xs font-bold uppercase tracking-[0.2em] mb-8">
-            Unisex Salon • POS Billing Terminal
+            Family Salon • POS Billing Terminal
           </p>
 
           {/* Form */}
@@ -2647,7 +2647,7 @@ export default function POSBilling() {
 
         {/* Footnote */}
         <div className="mt-6 text-[#1C1917]/30 text-[9px] font-bold tracking-widest uppercase">
-          Love & Happy Unisex Salon Terminal v2.1.0
+          Love & Happy Family Salon Terminal v2.1.0
         </div>
 
         {/* PWA Floating Install Banner */}
@@ -2661,7 +2661,7 @@ export default function POSBilling() {
                 INSTALL LOVE &amp; HAPPY
               </span>
               <span className="text-[11px] text-slate-400">
-                Unisex Salon • POS &amp; Billing App
+                Family Salon • POS &amp; Billing App
               </span>
             </div>
             <button
@@ -3172,10 +3172,10 @@ export default function POSBilling() {
             {/* Header branding */}
             <div className="p-6 border-b border-white/20 flex items-center justify-between gap-3">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-black rounded-xl flex items-center justify-center shadow-md overflow-hidden shrink-0 border border-white/20">
+                <div className="w-24 h-12 bg-black rounded-xl flex items-center justify-center shadow-md overflow-hidden shrink-0 border border-white/20">
                   <img
-                    src="/logo.jpeg"
-                    alt="Love & Happy Unisex Salon Logo"
+                    src="/logo.png"
+                    alt="Love & Happy Family Salon Logo"
                     className="w-full h-full object-contain p-1"
                   />
                 </div>
@@ -3184,7 +3184,7 @@ export default function POSBilling() {
                     Love &amp; Happy
                   </span>
                   <span className="text-[9px] text-white/90 font-bold tracking-wider block mt-0.5">
-                    Unisex Salon
+                    Family Salon
                   </span>
                 </div>
               </div>
@@ -3350,7 +3350,7 @@ export default function POSBilling() {
             )}
             <div>
               <h1 className="text-lg font-black text-[#000000] tracking-tight">
-                Love &amp; Happy Unisex Salon
+                Love &amp; Happy Family Salon
               </h1>
             </div>
           </div>
@@ -7970,7 +7970,7 @@ export default function POSBilling() {
         {/* Classy Footer */}
         <footer className="mt-auto pt-10 pb-2 border-t border-black/10 flex flex-col md:flex-row justify-between items-center text-[10px] text-[#000000] font-semibold uppercase tracking-wider gap-4">
           <div className="text-[#000000]">
-            © 2026 All Rights Reserved. Love & Happy Unisex Salon.
+            © 2026 All Rights Reserved. Love & Happy Family Salon.
           </div>
           <div>
             Powered By{" "}

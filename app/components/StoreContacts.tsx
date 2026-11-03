@@ -14,7 +14,7 @@ export default function StoreContacts() {
         Love &amp; Happy
       </h1>
       <p className="text-xs text-[#C62828] font-black tracking-widest uppercase mb-8">
-        Unisex Salon • Beauty, Hair, Spa &amp; Bridal Care
+        Family Salon • Beauty, Hair, Spa &amp; Bridal Care
       </p>
 
       <div className="space-y-6 text-left max-w-md mx-auto text-sm font-semibold text-[#1A1A1A]/80 border-t border-black/10 pt-8">

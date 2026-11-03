@@ -1,6 +1,6 @@
-# Love & Happy Unisex Salon — POS & Billing System
+# Love & Happy Family Salon — POS & Billing System
 
-A PWA-enabled Point of Sale (POS), billing, and client service management system for **Love & Happy Unisex Salon**, Tiruchchirappalli. It handles quick invoice generation, WhatsApp delivery of digital receipts, order history, GST / non-GST billing with two revenue dashboards, and full salon services catalog.
+A PWA-enabled Point of Sale (POS), billing, and client service management system for **Love & Happy Family Salon**, Tiruchchirappalli. It handles quick invoice generation, WhatsApp delivery of digital receipts, order history, GST / non-GST billing with two revenue dashboards, and full salon services catalog.
 
 ## Features
 
@@ -103,6 +103,6 @@ The role is determined by which passcode is used to log in.
 
 ## License
 
-© 2026 Love & Happy Unisex Salon. All Rights Reserved.
+© 2026 Love & Happy Family Salon. All Rights Reserved.
 
 Powered by [Cenexa Systems](https://www.cenexasystems.com/).

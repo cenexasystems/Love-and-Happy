@@ -276,7 +276,7 @@ export default async function AdvanceReceiptPage({
           <div className="text-center pb-3 border-b border-dashed border-black/40 mb-3">
             <h1 className="text-xl font-bold tracking-tight">{SALON_DETAILS.name}</h1>
             <p className="text-[11px] font-bold tracking-wider uppercase text-zinc-700">
-              Unisex Salon
+              Family Salon
             </p>
             <p className="text-[11px] mt-1">{SALON_DETAILS.addressLine1}</p>
             <p className="text-[11px]">{SALON_DETAILS.cityStateZip}</p>
@@ -382,10 +382,10 @@ export default async function AdvanceReceiptPage({
           {/* Header */}
           <div className="flex flex-col sm:flex-row justify-between items-start gap-6 pb-6 border-b border-zinc-200">
             <div className="flex items-start gap-3.5 sm:gap-4">
-              <div className="w-14 h-14 sm:w-16 sm:h-16 shrink-0 rounded-sm border border-zinc-300 overflow-hidden bg-black p-1">
+              <div className="w-28 h-14 sm:w-32 sm:h-16 shrink-0 rounded-sm border border-zinc-300 overflow-hidden bg-black p-1">
                 <img
-                  src="/logo.jpeg"
-                  alt="Love & Happy Unisex Salon"
+                  src="/logo.png"
+                  alt="Love & Happy Family Salon"
                   className="w-full h-full object-contain"
                 />
               </div>
@@ -549,14 +549,14 @@ export default async function AdvanceReceiptPage({
 
           <div className="mt-12 pt-6 border-t border-zinc-200 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6 text-xs">
             <div className="text-[11px] text-zinc-400">
-              Thank you for choosing Love &amp; Happy Unisex Salon!
+              Thank you for choosing Love &amp; Happy Family Salon!
             </div>
             <div className="sm:text-right space-y-1 self-end">
               <div className="border-b border-zinc-300 w-36 mb-1 ml-auto"></div>
               <div className="font-semibold text-zinc-800 text-xs">
                 Authorised Signatory
               </div>
-              <div className="text-[10px] text-zinc-400">For Love &amp; Happy Unisex Salon</div>
+              <div className="text-[10px] text-zinc-400">For Love &amp; Happy Family Salon</div>
             </div>
           </div>
         </div>

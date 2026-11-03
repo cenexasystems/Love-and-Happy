@@ -1,8 +1,7 @@
-const CACHE_NAME = 'love-and-happy-pos-v1';
+const CACHE_NAME = 'love-and-happy-pos-v2';
 const ASSETS_TO_CACHE = [
   '/',
   '/manifest.json',
-  '/logo.jpeg',
   '/logo.png',
   '/icon.png',
   '/apple-touch-icon.png',

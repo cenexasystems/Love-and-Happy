@@ -320,7 +320,7 @@ export default async function InvoicePage({
           {/* Thermal Receipt Layout */}
           <div className="text-center pb-3 border-b border-dashed border-black/40 mb-3">
             <h1 className="text-xl font-bold tracking-tight">LOVE &amp; HAPPY</h1>
-            <p className="text-[11px] font-bold tracking-wider uppercase text-zinc-700">Unisex Salon</p>
+            <p className="text-[11px] font-bold tracking-wider uppercase text-zinc-700">Family Salon</p>
             <p className="text-[11px] mt-1">No 65, 4 th cross west, Thillai Nagar</p>
             <p className="text-[11px]">Tiruchchirappalli, TN - 620018</p>
             <p className="text-[11px]">Ph: +91 98431 12203</p>
@@ -382,7 +382,7 @@ export default async function InvoicePage({
             ))}
           </div>
           <div className="text-[11px] text-center pt-1 font-semibold italic">
-            Thank you for choosing Love &amp; Happy Unisex Salon!
+            Thank you for choosing Love &amp; Happy Family Salon!
           </div>
         </div>
       ) : (
@@ -390,16 +390,16 @@ export default async function InvoicePage({
         {/* Header: Company & Invoice Info */}
         <div className="flex flex-col sm:flex-row justify-between items-start gap-6 pb-6 border-b border-zinc-200">
           <div className="flex items-start gap-3.5 sm:gap-4">
-            <div className="w-14 h-14 sm:w-16 sm:h-16 shrink-0 rounded-sm border border-zinc-300 overflow-hidden bg-black p-1">
+            <div className="w-28 h-14 sm:w-32 sm:h-16 shrink-0 rounded-sm border border-zinc-300 overflow-hidden bg-black p-1">
               <img
-                src="/logo.jpeg"
-                alt="Love & Happy Unisex Salon"
+                src="/logo.png"
+                alt="Love & Happy Family Salon"
                 className="w-full h-full object-contain"
               />
             </div>
             <div className="space-y-1">
               <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-zinc-900">
-                Love &amp; Happy Unisex Salon
+                Love &amp; Happy Family Salon
               </h1>
               <p className="text-xs text-zinc-500 leading-relaxed max-w-xs">
                 No 65, 4 th cross west, Thillai Nagar, Tiruchchirappalli 620018
@@ -594,7 +594,7 @@ export default async function InvoicePage({
         {/* Signatory & Machine Note */}
         <div className="mt-12 pt-6 border-t border-zinc-200 flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6 text-xs">
           <div className="text-[11px] text-zinc-400">
-            Thank you for your visit! • Love &amp; Happy Unisex Salon POS
+            Thank you for your visit! • Love &amp; Happy Family Salon POS
           </div>
 
           <div className="sm:text-right space-y-1 self-end">
@@ -602,7 +602,7 @@ export default async function InvoicePage({
             <div className="font-semibold text-zinc-800 text-xs">
               Authorised Signatory
             </div>
-            <div className="text-[10px] text-zinc-400">For Love &amp; Happy Unisex Salon</div>
+            <div className="text-[10px] text-zinc-400">For Love &amp; Happy Family Salon</div>
           </div>
         </div>
         </div>

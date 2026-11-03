@@ -1,7 +1,7 @@
 {
-  "name": "Love & Happy Unisex Salon - POS",
+  "name": "Love & Happy Family Salon - POS",
   "short_name": "Love & Happy",
-  "description": "Love & Happy Unisex Salon Point of Sale, Billing & Client Management",
+  "description": "Love & Happy Family Salon Point of Sale, Billing & Client Management",
   "start_url": "/pos/admin/secure/control-panel/love-and-happy",
   "display": "standalone",
   "background_color": "#FFFFFF",
@@ -28,9 +28,9 @@
       "purpose": "any"
     },
     {
-      "src": "/logo.jpeg",
+      "src": "/logo.png",
       "sizes": "any",
-      "type": "image/jpeg",
+      "type": "image/png",
       "purpose": "any"
     }
   ]

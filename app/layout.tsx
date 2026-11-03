@@ -18,13 +18,13 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Love & Happy Unisex Salon - POS Billing",
-  description: "Love & Happy Unisex Salon Point of Sale, Billing, Inventory & Digital Invoices",
+  title: "Love & Happy Family Salon - POS Billing",
+  description: "Love & Happy Family Salon Point of Sale, Billing, Inventory & Digital Invoices",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Love & Happy Unisex Salon",
+    title: "Love & Happy Family Salon",
   },
   icons: {
     icon: "/icon.png",
@@ -46,7 +46,7 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Love & Happy Unisex Salon" />
+        <meta name="apple-mobile-web-app-title" content="Love & Happy Family Salon" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
       <body className="min-h-full flex flex-col">
